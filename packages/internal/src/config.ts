@@ -47,9 +47,9 @@ export interface Config {
     stories: boolean
     nestScaffoldByModel: boolean
   }
-  experimental: {
-    esbuild: boolean
-  }
+  // experimental: {
+  //   esbuild: boolean
+  // }
 }
 
 // Note that web's includeEnvironmentVariables is handled in `webpack.common.js`
@@ -82,9 +82,9 @@ const DEFAULT_CONFIG: Config = {
     stories: true,
     nestScaffoldByModel: true,
   },
-  experimental: {
-    esbuild: false,
-  },
+  // experimental: {
+  //   esbuild: false,
+  // },
 }
 
 /**
